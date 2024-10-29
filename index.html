@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Almacén</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">LAS HERMANAS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lacteos.html">Lácteos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Almacén</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kiosko</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Frutas y Verduras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bienvenida -->
+    <section class="welcome-section text-center my-5">
+        <div class="container">
+            <h1 class="welcome-title">Bienvenidos a nuestro Almacén</h1>
+            <p class="welcome-text">Encuentra una amplia variedad de productos de calidad, desde lácteos y bebidas hasta frutas y alimentos para tus mascotas.</p>
+        </div>
+    </section>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="static/imgs/nuestrologo.png" class="d-block w-100" alt="Imagen Almacén 1">
+            </div>
+            <div class="carousel-item">
+                <img src="static/imgs/carusel2.png" class="d-block w-100" alt="Imagen Almacén 2">
+            </div>
+            <div class="carousel-item">
+                <img src="static/imgs/mediosdepago.png" class="d-block w-100" alt="Imagen Almacén 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
