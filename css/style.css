@@ -90,3 +90,23 @@
 .social-link:hover {
     color: #007bff;
 }
+
+
+/* Modo oscuro */
+.dark-mode {
+    background-color: black; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto claro */
+}
+
+.dark-mode .navbar {
+    background-color: black; /* Color de la navbar en modo oscuro */
+}
+
+.dark-mode .btn-secondary {
+    background-color: black; /* Color del botón en modo oscuro */
+}
+
+.dark-mode .btn-secondary:hover {
+    background-color:black; /* Hover del botón en modo oscuro */
+}
+
