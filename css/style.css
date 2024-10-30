@@ -47,3 +47,46 @@
 .card:hover {
     transform: scale(1.05);
 }
+
+
+/* Sección de descripción */
+.about-section {
+    padding: 50px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Redes sociales */
+.social-container {
+    display: flex;
+    flex-direction: column; /* Alineación vertical de los enlaces */
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.social-link {
+    display: flex;
+    align-items: center; /* Alinea icono y texto en línea */
+    gap: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.social-link img {
+    width: 30px;
+    height: 30px;
+}
+.social-link:hover {
+    color: #007bff;
+}
